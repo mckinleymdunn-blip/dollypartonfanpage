@@ -1,0 +1,40 @@
+div{
+    padding: 3px;
+    border: solid lightblue 3px;
+    margin: 3px;
+    position: absolute;
+}
+
+.header_div{ top:5px ;
+left: 5px; right:5px; height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.left_div{ top: 120px; left: 5px; width: 150px; height: 80%;
+display: flex;
+justify-content: center;}
+
+.center_div {
+  top: 120px;
+  left: 170px;
+  right: 170px;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;   /* stack items vertically */
+  align-items: center;      /* center horizontally */
+}
+
+.right_div{right: 5px; top: 120px; width: 150px; height: 80%;
+display: flex;
+justify-content: center;}
+
+.footer_div{bottom: -12%; left: 5px; right: 5px; height: 100px;
+display: flex;
+justify-content: center;}
+
+img {max-width: 100%; height: auto;}
+

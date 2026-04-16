@@ -1,0 +1,28 @@
+h1 { 
+color:hotpink
+
+}
+
+h2 {
+color:mediumpurple
+
+}
+
+.special_text {color:purple;
+font-style: italic;
+
+}
+
+.bold_important_text {font-weight: bold;
+font-family: cursive, 'Times New Roman', Times, serif;}
+
+a:hover{
+    text-decoration: underline;
+    color:steelblue;
+
+}
+body {
+color:black;
+background-color: ivory;
+
+}
